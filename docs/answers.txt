@@ -1,0 +1,40 @@
+(a) $ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        docs/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+(b) 8
+git log
+
+(c) Wed Sep 25 18:13:30 2019 -0400
+git log
+
+(d) branches are used to create new pointers to commits and allows you to navigate through commits
+
+(e) git log shows the entire history of commits and get status shows what is going to be commited
+
+(f) git log --follow Vehicle.h 
+
+(g) git log --grep "file" 
+
+(h) Inheritance: Using a parent class to provide the same implentation to another sub class.
+	Polymorphism: When classes are related by inheritance, a call to a member function 
+		will cause a different function to be executed depending on the object that calls the function.
+	Encapsulation: Using set and get functions to manipulate private date.
+
+(i) The main difference between the “Dictator and Lieutenants” workflow and the “Integration manager” workflow
+	is in the Integration Manager workflow developers have ther own private repositories that they can push to public repositories
+	and in Dictator and Lieutenants workflow private repositories must be pushed to higher ups before being sent to a public repository.
+
+(j) A team of 100 developers benefit from following the “Dictator and Lieutenants” workflow instead of the “Centralized” workflow because Dictators and Lieutenants
+	help orgainze the data that the private developers are working on and keeping the project uniform.
+
+
+5. This assignment uses both encapsulation and polymorphism. Encapsulation because there are multiple functions to access private member data
+	and polymorphism because every class created used either the PoweredVehicle parent class or the Vehicle parent class
